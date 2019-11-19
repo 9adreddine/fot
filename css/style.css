@@ -56,13 +56,28 @@ display: flex;
 }
 .content3{
     flex-basis: 100%;
-    background-color: purple;
+    background-color: black;
     height: 400px;
 }
-.content4{
-    flex-basis: 100%;
-    background-color: lightblue;
-    height: 400px;
+.content3 img{
+    width: 39%;
+    height: 100%;
+    margin-top: -10.08cm;
+}
+.content3 h1{
+    margin-left: 13cm;
+    margin-top: 0.1cm;
+    color: red;
+}
+.content3 p{
+    margin-top: -0.54cm;
+    margin-left: 13.2cm;
+    color: white;
+}
+.content3 table{
+    margin-left: 16cm;
+}
+
 }
 .content5{
     flex-basis: 100%;
