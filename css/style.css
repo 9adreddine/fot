@@ -51,8 +51,20 @@ display: flex;
 }
 .content2{
     flex-basis: 100%;
-    background-color: green;
-    height: 400px;
+    background: lemonchiffon;
+    height: 400px;}
+    h1{
+    text-shadow: 2px 2px rgb(255, 94, 0) ;
+    text-align: center
+}
+p{
+    color:black;
+    margin-top: -200px;
+    padding-left: 250px;
+    border: 1px solid white;
+    text-align: left;
+    font-style:oblique;
+    font-size:large;
 }
 .content3{
     flex-basis: 100%;
@@ -61,8 +73,10 @@ display: flex;
 }
 .content3 img{
     width: 39%;
-    height: 100%;
-    margin-top: -10.08cm;
+    height: 67%;
+   position: absolute;
+   margin-top: -600px;
+   
 }
 .content3 h1{
     margin-left: 13cm;
@@ -78,7 +92,7 @@ display: flex;
     margin-left: 16cm;
 }
 
-}
+
 .content5{
     flex-basis: 100%;
     background-color: greenyellow;
